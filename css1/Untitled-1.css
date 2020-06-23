@@ -1,0 +1,32 @@
+/* 背景 */
+body{
+    font-family: 'Open Sans',sans-serif;
+    background: url(img/65144542_p0.jpg)no-repeat;
+    background-size: cover;
+
+}
+/* 导航栏 */
+.su{
+    position: relative;
+    margin:270px  auto 0;
+    width: 440px;
+    height:50px;
+    background: #34495e;
+    border-radius: 8px;
+    font-size:0px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+.su a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    display:inline-block;
+    text-align: center;
+    width: 110px;}
+
+a:hover{
+    color: skyblue;
+    border-radius: 8px;
+    border-bottom: skyblue 1px solid;
+}
